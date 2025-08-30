@@ -6,10 +6,14 @@
 	<link rel="stylesheet" href="styles.css">
 	<style>
 		.holder{
-			display: flex;
-			justify-content: space-evenly;
-			flex-wrap: wrap;
-			background-color:green;
+  display: flex;                 /* make it a flex container */
+  flex-direction: row;           /* items in a row */
+  justify-content: space-evenly; /* evenly distribute items horizontally */
+  align-items: center;           /* vertically center items */
+  flex-wrap: wrap;               /* allow items to go to the next row instead of squishing */
+  gap: 10px;                     /* optional: space between items */
+}
+
 		}
 	</style>
 </head>
